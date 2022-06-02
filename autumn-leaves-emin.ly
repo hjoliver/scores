@@ -1,5 +1,16 @@
 \version "2.22.2"
 
+% From the "Real Book" lead sheet, then tweaked to be more like 
+% a Jens Larsen chord melody arrangement in Gm.
+\header {
+  title = "Autumn Leaves"
+  subtitle = "Chord Melody Arrangement in Em"
+  composer = "Joseph Kosma"
+  arranger = "Butchered by HilsTheSlayer"
+  instrument = "for Guitar"
+}
+
+
 %{
   NOTES:
   - chordmode: can't control which string notes are on?
@@ -134,13 +145,6 @@ chnames = {
     s1 |
     s2 e4.:m6 s8
   }
-}
-
-\header {
-  title = "Autumn Leaves"
-  subtitle = "Chord Melody Arrangement"
-  composer = "Joseph Kosma"
-  arranger = "Butchered by HilsTheSlayer"
 }
 
 \score {
